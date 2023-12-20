@@ -57,7 +57,7 @@ export const Navbar = () => {
       </ul>
       <div className="nav-login-cart">
         <Link to="/login">
-          <button>LOGIN</button>
+          <button>ACCEDI</button>
         </Link>
         <Link to="/cart">
           <img src={cart_icon} alt="" />
