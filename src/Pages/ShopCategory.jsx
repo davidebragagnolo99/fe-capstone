@@ -6,6 +6,7 @@ import Item from "../Components/Item/Item";
 
 const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
+  // console.log(props, all_product);
   return (
     <div className="shop-category">
       <img src={props.banner} alt="" />
