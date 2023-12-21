@@ -26,33 +26,33 @@ export const Navbar = () => {
         </li>
         <li
           onClick={() => {
-            setMenu("uomo");
+            setMenu("mens");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/uomo">
-            Uomo
+          <Link style={{ textDecoration: "none" }} to="/mens">
+            Men
           </Link>
-          {menu === "uomo" ? <hr /> : <></>}
+          {menu === "mens" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
-            setMenu("donna");
+            setMenu("womens");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="donna">
-            Donna
+          <Link style={{ textDecoration: "none" }} to="womens">
+            Women
           </Link>
-          {menu === "donna" ? <hr /> : <></>}
+          {menu === "womens" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
-            setMenu("bambino");
+            setMenu("kids");
           }}
         >
-          <Link style={{ textDecoration: "none" }} to="/bambino">
-            Bambino
+          <Link style={{ textDecoration: "none" }} to="/kids">
+            Kids
           </Link>
-          {menu === "bambino" ? <hr /> : <></>}
+          {menu === "kids" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="nav-login-cart">
